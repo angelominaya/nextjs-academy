@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("theme", newTheme)
     updateDarkModeIcon(newTheme, icon)
 
-    showNotification(`Modo ${newTheme === "dark" ? "oscuro" : "claro"} activado`, "info")
+    // showNotification(`Modo ${newTheme === "dark" ? "oscuro" : "claro"} activado`, "info")
   })
 })
 
